@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mid Q4</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <!-- Your site content here -->
+      <div id="main_div">
+        <div id = "div1">
+          <h2>Text Logo Maker</h2>
+          <p>Letter One <input type="text" id="l1"></p>
+          <p>Letter Two <input type="text" id="l2"></p>
+          <p>Border Width (px) <input type="number" id="bw"></p>
+          <button id="div_btn">Rounded Corner</button>
+        </div>
+
+        <div id = "div2">
+          <div id="div_display"></div>
+
+          <p>
+            <button id="bg_color" onclick="changeBGColor(event)">Background</button>
+            <button id="b" onclick="changeBorderColor(event)">Border</button>
+          </p>
+
+          <p><button onclick="changeL1Color(event)">Letter One</button>
+            <button onclick="changeL2Color(event)">Letter Two</button>
+          </p>
+          <hr>
+          <p>
+            <button  id="v" style="background-color: violet;">V</button>
+            <button  id="i" style="background-color: indigo;">I</button>
+            <button  id="bl" style="background-color: blue;">B</button>
+            <button  id="g" style="background-color: green;">G</button>
+            <button  id="y" style="background-color: yellow;">Y</button>
+            <button  id="o" style="background-color: orange;">O</button>
+            <button  id="r" style="background-color: red;">R</button>
+            <button  id="w" style="background-color: white;">W</button>
+          </p>
+        </div>
+      </div>
+
+      <script src="jquery-3.3.1.min.js"></script>
+      <script src="script.js"></script>
+  </body>
+</html>
